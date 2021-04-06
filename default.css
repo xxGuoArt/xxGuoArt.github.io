@@ -1,0 +1,69 @@
+#p2{
+    color: green;
+    font-family: "Ranchers", cursive;
+    font-size: 70px;
+    top: 10%;
+    left: 50%;
+    text-align : center;
+}
+
+#p1{
+    color: green;
+    font-family: "Ranchers", cursive;
+    font-size: 50px;
+    top: 10%;
+    left: 50%;
+    text-align : center;
+}
+
+
+#image1{
+    width: 10%;
+    position: absolute;
+    top: 100px;
+    width: 300px;
+}
+
+
+#image2{
+    
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 10%;
+}
+
+#image3{
+    
+    position: absolute;
+    top: 68%;
+    left: 8%;
+}
+
+
+#image4{
+    
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+#image5{
+    
+    position: absolute;
+    top: 68%;
+    left: 70%;
+}
+
+#image6{
+    
+    position: absolute;
+    top: 80px;
+    left: 1150px;
+}
+
+body{
+    background-color: rgb(245, 244, 244);
+    
+    background-repeat: no-repeat;
+}
