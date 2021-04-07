@@ -28,7 +28,7 @@
 #image2{
     
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 25%;
     width: 10%;
 }
@@ -62,6 +62,7 @@
     left: 1150px;
 }
 
+
 #image7{
     
     position: absolute;
@@ -71,7 +72,7 @@
 
 
 body{
-    background-color: rgb(245, 244, 244);
+    background-color: black;
     
     background-repeat: no-repeat;
 }
