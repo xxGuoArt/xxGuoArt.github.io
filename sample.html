@@ -9,9 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Xingxin Guo.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Xingxin Guo" startnode="1" creator="Twine" creator-version="2.3.13" ifid="140C8CA8-5BAA-4C76-980D-DDD4A5CF64C1" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-sidebar{
-  display: none;
-}
+<tw-storydata name="Xingxin Guo" startnode="1" creator="Twine" creator-version="2.3.13" ifid="140C8CA8-5BAA-4C76-980D-DDD4A5CF64C1" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
 
 tw-passage {
 color:white;
@@ -19,7 +17,7 @@ font-size: 18px;
 }
 
 tw-link{
-color:green;
+color:red;
 }
 
 tw-story[tags~="sleep"]{
@@ -47,19 +45,193 @@ background-size:cover;
 tw-story[tags~="Asleep"]{
 background-image:url("https://cdn.pixabay.com/photo/2017/08/01/14/14/white-2565766_1280.jpg");
 background-size:cover;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Class end" tags="first" position="413,191" size="100,100">(set: $name to (prompt: &quot;Enter your name:&quot;, &quot;Default name&quot;))
+}
+
+tw-passage[tags~="Asleep"]{
+color:black;
+font-size: 18px;
+}
+
+tw-story[tags~="End"]{
+background-image:url("https://cdn.pixabay.com/photo/2020/03/09/15/30/painting-4916118__480.jpg");
+background-size:cover;
+}
+
+tw-story[tags~="go"]{
+background-image:url("https://cdn.pixabay.com/photo/2016/12/30/07/55/bedroom-1940169_1280.jpg");
+background-size:cover;
+}
+tw-story[tags~="watch"]{
+background-image:url("https://cdn.pixabay.com/photo/2018/06/16/15/24/youtube-icon-3478912__480.jpg");
+background-size:cover;
+}
+tw-story[tags~="watch1"]{
+background-image:url("https://cdn.pixabay.com/photo/2018/06/16/15/24/youtube-icon-3478912__480.jpg");
+background-size:cover;
+}
+tw-story[tags~="start"]{
+background-image:url("https://cdn.pixabay.com/photo/2016/11/25/23/15/moon-1859616__340.jpg");
+background-size:cover;
+}
+tw-story[tags~="family"]{
+background-image:url("https://cdn.pixabay.com/photo/2018/10/23/09/26/argue-3767380_1280.png");
+background-size:cover;
+}
+
+
+tw-story[tags~="family1"]{
+background-image:url("https://cdn.pixabay.com/photo/2018/03/29/18/50/mom-3273202_1280.png");
+background-size:cover;
+}
+
+tw-story[tags~="friends"]{
+background-image:url("https://cdn.pixabay.com/photo/2018/06/24/23/47/girls-3495748_1280.png");
+background-size:cover;
+}
+
+tw-story[tags~="friends1"]{
+background-image:url("https://cdn.pixabay.com/photo/2019/10/31/21/32/girl-4592925__340.jpg");
+background-size:cover;
+}
+
+tw-story[tags~="yes"]{
+background-image:url("https://cdn.pixabay.com/photo/2021/04/02/07/01/girls-6144020_1280.png");
+background-size:cover;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Class end" tags="first" position="1131,1.6666666666666667" size="100,100">(set: $name to (prompt: &quot;Enter your name:&quot;, &quot;Default name&quot;))
 Welcome, $name. 
 
-It is 3am. 
+It is 3am. Late Night. 
 
-Late Night. 
+All of your online Zoom classes ended finally. 
 
-All of your online classes ended finally.
+You are an international student at UNC. Under the Covid-19, you do not get your Student Visa to come to the US. Instead, you are only left with the choice of taking the online classes from home. Due to the time difference of 12 hours between the US and China, all of your first-year college classes are at your night time. 
 
-(set: $time to 3)
-[[Go to bed]]
+The challenge for you is to get asleep as soon as possible after the classes. Once you become asleep anytime before 7am, your journey succeed. However, if you cannot get into sleep by 7am, you journey ended. Sounds easy? There are many obstacles you need to overcome. Remember getting into sleep is not always easy. 
 
-[[Youtube Video]]
+[[Start journey]]
+
+</tw-passagedata><tw-passagedata pid="2" name="Go to bed" tags="gotobed" position="483,72.66666666666667" size="100,100">(set: $time to $time )
+Now it is $time am.
+You wear your pajamas, make your bed, and lay on your bed. With the air-conditioner on, you feel comfortable and cozy in your room.
+But there is something going on in your mind.
+You start to reminesce what you have done today. You cannot stop your brain from thinking. 
+Click the following four scnerios to enter
+[[Schoolwork]]
+[[Family]]
+[[Friends]]
+[[Shopping]]</tw-passagedata><tw-passagedata pid="3" name="Watch Youtube Video" tags="watch" position="1144.6666666666667,214.66666666666666" size="100,100">Reminder: Now it is $time am.
+Open your Youtube on your laptop. Now you have four choices of video content. 
+[[Cooking]]
+[[Movie trailers]]
+[[Study Vlog]]
+[[Reality Show]]
+</tw-passagedata><tw-passagedata pid="4" name="Stop, I need to sleep" tags="Asleep" position="2010.0000000000002,473.33333333333326" size="100,100">&#39;&#39;Back to the [[Start journey]] to restart the game. &#39;&#39;
+
+How much sleep do people need?
+
+Most adults need 7 to 8 hours of good quality sleep on a regular schedule each night. Make changes to your routine if you can&#39;t find enough time to sleep.
+
+Getting enough sleep isn’t only about total hours of sleep. It’s also important to get good quality sleep on a regular schedule so you feel rested when you wake up.
+
+If you often have trouble sleeping – or if you often still feel tired after sleeping – talk with your doctor.
+
+(alert: &quot;Succeed &quot;)
+</tw-passagedata><tw-passagedata pid="5" name="End" tags="End" position="1182.3333333333335,1269.3333333333333" size="100,100">(alert: &quot;FAILED! It is a new day. You have not achieved the goal to sleep tonight &quot;)
+
+Back to the [[Start journey]] to restart
+
+&quot;&#39;&#39;The long-term effects of sleep deprivation are real.
+&#39;&#39;
+It drains your mental abilities and puts your physical health at real risk. Science has linked poor slumber with a number of health problems, from weight gain to a weakened immune system.
+
+&#39;&#39;Central nervous system
+&#39;&#39;Your central nervous system is the main information highway of your body. Sleep is necessary to keep it functioning properly, but chronic insomnia can disrupt how your body usually sends and processes information.
+
+During sleep, pathways form between nerve cells (neurons) in your brain that help you remember new information you’ve learned. Sleep deprivation leaves your brain exhausted, so it can’t perform its duties as well.
+
+&#39;&#39;Immune system
+&#39;&#39;While you sleep, your immune system produces protective, infection-fighting substances like antibodies and cytokines. It uses these substances to combat foreign invaders such as bacteria and viruses.
+
+Certain cytokines also help you to sleep, giving your immune system more efficiency to defend your body against illness.
+
+Sleep deprivation prevents your immune system from building up its forces. If you don’t get enough sleep, your body may not be able to fend off invaders, and it may also take you longer to recover from illness.
+
+Long-term sleep deprivation also increases your risk for chronic conditions, such as diabetes mellitus and heart disease.&quot;
+
+(Above information is from //Healthyline//. Please refer to the original article for more information.)</tw-passagedata><tw-passagedata pid="6" name="More Youtube Videos" tags="watch1" position="1290.6666666666665,553.9999999999997" size="100,100">(set: $time to $time + 1)
+Reminder: It is $time am.
+(if: $time &gt; 6 )[
+The sky gets brighter. You can hear birds singing. However, the biggest sound is your heartbeat. After watching videos for the whole night, your heart beat strongly and quickly. Even sometimes your feel you find it hard to breathe.
+Click [[End]] to see your final result of the game.
+]
+(if: $time &lt; 7)[
+You feel intrigued. You want to continue watching these videos.
+Now you have following four choices.
+Please do not choose the one you have clicked.
+[[Cooking]]
+[[Movie trailers]]
+[[Study Vlog]]
+[[Reality Show]]
+]
+
+
+
+
+
+</tw-passagedata><tw-passagedata pid="7" name="Start journey" tags="start" position="823,38.333333333333314" size="100,100">(set: $time to 3)
+You close your laptop and go to the washroom to finish your daily night routine. You come back at your desk. 
+
+Now you have two choices. 
+[[Go to bed]] or [[Watch Youtube Video]]
+</tw-passagedata><tw-passagedata pid="8" name="Cooking" tags="" position="1489.3333333333333,320.33333333333337" size="100,100">(set: $nb to 1)
+You suddenly remember your friend has introduced you a famous influencer from Korea. In her daily vlogs, she is famous for her cooking strategies and the comfortable atmosphere. You start to search her name on Youtube and  watch her videos.
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pXAxQCdHZKk&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+On the right bar of the screen, you see her other vlogs in the recommendation section. You cannot stop watching it.
+
+If you feel you must continue watching these Youtube videos otherwise your life won&#39;t be complete, click [[More Youtube Videos]]
+Or you think Youtube videos are meaningless. Going to bed and having a good sleep becomes everything for you. Then click [[Stop, I need to sleep]]</tw-passagedata><tw-passagedata pid="9" name="Movie trailers" tags="" position="1431.0000000000002,190.99999999999994" size="100,100">(set: $nb to 2)
+
+You remember the advertisment on the metro and in your social media about the recent hot movies. Currently it is near the end of the semester. You have spent most of your time studying. So you have less time to go outside and have fun. 
+
+You search the trailers on Youtube. You cannot stop yourself from using the sleep time for entertainment.
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2fuowcxdrYc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+On the right bar of the screen, you see other trailers in the recommendation section. You click, click, and click. An hour has passed.
+
+If you feel you must continue watching these Youtube videos otherwise your life won&#39;t be complete, click [[More Youtube Videos]]
+Or you think Youtube videos are meaningless. Going to bed and having a good sleep becomes everything for you. Then click [[Stop, I need to sleep]]</tw-passagedata><tw-passagedata pid="10" name="Study Vlog" tags="" position="1414.3333333333335,45.999999999999964" size="100,100">(set: $nb to 3)
+
+In your recommendation bar, there is one study vlog with decent decoration and lovely drawings. You feel attracted and click it. 
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pCq6dycjHjA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+On the right bar of the screen, you see her other vlogs in the recommendation section. You cannot stop watching it while an hour has passed during this time.
+
+You feel intrigued. 
+
+Even though sometimes you feel guilty of not working hard while the vloggers work and play hard, you do have a sense of satisfaction as the vloggers are doing what you need to do.
+
+If you feel you must continue watching these Youtube videos otherwise your life won&#39;t be complete, click [[More Youtube Videos]]
+Or you think Youtube videos are meaningless. Going to bed and having a good sleep becomes everything for you. Then click [[Stop, I need to sleep]]</tw-passagedata><tw-passagedata pid="11" name="Reality Show" tags="" position="1297.6666666666665,1.6666666666666667" size="100,100">(set: $nb to 4)
+
+When you were taking the online classes, you heard that your family members were watching the reality show outside your room. They laughed out loud, but what was in front of you was your laptop and your schoolwork. 
+
+You feel &quot;I must watch the shows that I have missed right now!&quot;
+
+You search on the Youtube and start to watch.
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ML9E33z2jJ0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+On the right bar of the screen, you see other episodes in the recommendation section. You cannot stop watching it.
+
+An hour has passed.
+If you feel you must continue watching these Youtube videos otherwise your life won&#39;t be complete, click [[More Youtube Videos]]
+Or you think Youtube videos are meaningless. Going to bed and having a good sleep becomes everything for you. Then click [[Stop, I need to sleep]]</tw-passagedata><tw-passagedata pid="12" name="Schoolwork" tags="" position="48.33333333333333,202.66666666666666" size="100,100">As taking your computer science midterm today, you stuck at one question. You kept getting ValueError for the codes. 
+
+You have talked with your peers but your peers also did not know why it did not run well.
 
 &lt;style&gt; img{
 	max-width: 100%;
@@ -67,74 +239,116 @@ All of your online classes ended finally.
 }
 
 &lt;/style&gt;
-&lt;img src=&quot;https://cdn.pixabay.com/photo/2020/04/30/20/14/sky-5114501_1280.jpg&quot; &gt; 
+&lt;img src=&quot;https://xxguoart.github.io/python.jpeg&quot; &gt; 
 &lt;/div&gt;
 
-&lt;audio src=&quot;&quot; autoplay&gt;
+Now, you have two choices. 
+[[Yes...Let&#39;s leave it out for tomorrow]] 
+[[I have to figure out]].</tw-passagedata><tw-passagedata pid="13" name="Family" tags="family" position="153.33333333333331,309.3333333333333" size="100,100">You had a quarrel with your parents today.
 
-Do not write a story. Think more of related or thematic passages.
+Your parents were unsatisfied with you, because you always get up very late, like around the noon. Usually you would directly take your lunch. Your parents thought it was very unhealthy to not to have the breakfast. In China, breakfast is deemed as the most important step for starting a new day and get your digestive system ready. 
 
-You must include at least 10 images.
+Your parents pointed out their unsatisfaction again at the lunch. You became unhappy because you feel your parents did not understand you at all. Since you had so many night classes, it was difficult for you to get a normal, healthy sleep cycle.
 
-Images should not be stylized or not already coded. We discussed this in class. For example, pictures such as Brad Pitt, the Old Well, a beach have meanings already formed. Use images as elements that convey meaning based on their associations with other elements.
+You slapped the door and closed yourself into the room.
 
-Utilize variables and conditions to prevent users from repeating the same steps.
+What is going on in your mind?
+[[Yes...Let&#39;s leave it out for tomorrow]]
+[[It is completely not my fault.]]
+</tw-passagedata><tw-passagedata pid="14" name="Friends" tags="friends" position="306.3333333333333,417.6666666666667" size="100,100">Two days ago, you had a quarrel with your best friend. 
 
-Remove the return bar.</tw-passagedata><tw-passagedata pid="2" name="Go to bed" tags="gotobed" position="165,315" size="100,100">(set: $time to $time )
-Now it is $time am.
-[[Awake on the bed]]
+She sent you a text message about her video game. The players need to purchase lucky draws to get characters that are only in limited numbers. She has spent a lot money but still did not get her favorite character in the video game. 
 
-</tw-passagedata><tw-passagedata pid="3" name="Youtube Video" tags="" position="508,354" size="100,100">Reminder: Now it is $time am.
-(if: $time &gt; 6)[[Go TO SLEEP]]
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/VyvqK5xwFzI?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-You feel intrigued. 
-You feel you must continue watching these Youtube videos. 
-Otherwise your life won&#39;t be complete.
-Continue Watching? Then click [[Youtube Video 2]]
-Or you think Youtube videos are meaningless.
-Go to bed and a good sleep becomes everything for you.
-Then click [[Asleep on the bed]]</tw-passagedata><tw-passagedata pid="4" name="Asleep on the bed" tags="Asleep" position="28,489" size="100,100">Research shows that it is important to have a good sleep and have a good day!
-(alert: &quot;Succeed &quot;)</tw-passagedata><tw-passagedata pid="5" name="Awake on the bed" tags="" position="237,530" size="100,100">(set: $time to $time + 1)
-It is $time am.
-(if: $time &lt; 7)[[Awake on the bed]]
-(if: $time &gt; 6)[[End]]
+However, you did not respond to her message immediately. Indeed, you see her messages when she sent but you have other schoolworks to finish so you plan to reply to her later.
 
-{
-	
+She became irritated at your late responses and started to present negative aggression. She did not reply back to your message for two days. 
+
+Now you have two choices.
+[[Yes...Let&#39;s leave it out for tomorrow]]
+[[She shouldn&#39;t do that!]]
+
+</tw-passagedata><tw-passagedata pid="15" name="Shopping" tags="" position="478.00000000000006,457.66666666666663" size="100,100">When hanging out with your friends in the shopping mall in the afternoon, you have noticed a red dress. The dress was put in the outside display of the store. You wanted to try the dress but your friends want to go to other places. Therefore, you did not have a chance to try in that dress.
+
+&lt;style&gt; img{
+	max-width: 100%;
+	max-height: 100%;
 }
 
+&lt;/style&gt;
+&lt;img src=&quot;https://cdn.pixabay.com/photo/2017/07/31/11/43/architecture-2557567__340.jpg&quot; &gt; 
+&lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="6" name="End" tags="" position="365,679" size="100,100">(alert: &quot;FAILED! It is a new day. You have not achieved the goal to sleep tonight &quot;)</tw-passagedata><tw-passagedata pid="7" name="Youtube Video 2" tags="" position="726,625" size="100,100">(set: $time to $time + 1)
+Now you have two choices.
+[[Yes...Let&#39;s leave it out for tomorrow]]
+[[I must get that dress]]</tw-passagedata><tw-passagedata pid="16" name="Yes...Let&#39;s leave it out for tomorrow" tags="yes" position="63.33333333333334,782.6666666666667" size="100,100">Research shows that when laying on the bed, you simply should not let your brain and your mind think too much. Otherwise, your brain would be activated and your would continue thinking about your actions.
+
+Click [[Stop, I need to sleep]] to see the final result.</tw-passagedata><tw-passagedata pid="17" name="It is completely not my fault." tags="family1" position="201.66666666666674,1127.6666666666667" size="100,100">You begin to go way deeper than the original question, which leads you to be excited and hard to get into sleep. 
+
+You remember the past quarrels with your parents, the conversation with your friends about their family quarrels, the conflicts during your family trip......
+
+Your brain is activated and you cannot stop it from thinking other scenarios. Back to the first page [[Go To Bed]] to see the other scenarios.</tw-passagedata><tw-passagedata pid="18" name="I have to figure out" tags="" position="1.6666666666666667,1129.3333333333333" size="100,100">You begin to search online about that question. 
+
+Enter &quot;python if-statement&quot; in the search bar. There are many relevant websites. You go through them one by one. You even open your laptop to try these new codes.
+
+&lt;style&gt; img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+&lt;/style&gt;
+&lt;img src=&quot;https://xxguoart.github.io/google.png&quot; &gt; 
+&lt;/div&gt;
+
+An hour has passed during your search time. Your brain is activated and you cannot stop it from thinking. Back to the page [[Go To Bed]] to see the other scenarios.</tw-passagedata><tw-passagedata pid="19" name="She shouldn&#39;t do that!" tags="friends1" position="379.6666666666667,1199.3333333333335" size="100,100">You do not think it is your fault, because it is unreasonable to require anyone to respond to the text messages immediately.
+
+However, you also start to think &quot;How I could not directly explain to her I am busy at that time?&quot; 
+
+You also feel embarassed to first apologize, because you are always the first one to say sorry. At this time, you do not want to be the first one as always. 
+
+Your brain is activated and you cannot stop it from thinking other scenarios. Back to the first page [[Go To Bed]] to see the other scenarios.</tw-passagedata><tw-passagedata pid="20" name="I must get that dress" tags="" position="653.0000000000001,1199.3333333333333" size="100,100">You try hard to remember the details of the dress.
+
+You even open your online shopping application to see whether there are similar dresses. However, they all do not look like the same as the one you saw in the shopping mart. You feel regretful of not at leasting taking a closer look at the dress.
+
+&lt;style&gt; img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+&lt;/style&gt;
+&lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTboMbQFH9Fm1he_uneOlSoLwckG3T02_cWEw&amp;usqp=CAU&quot; &gt; 
+&lt;/div&gt;
+
+
+Your brain is activated and you cannot stop it from thinking other scenarios. Back to the first page [[Go To Bed]] to see the other scenarios.</tw-passagedata><tw-passagedata pid="21" name="Go To Bed" tags="go" position="958.3333333333334,509.3333333333332" size="100,100">(set: $time to $time + 1)
 Reminder: It is $time am.
-(if: $time &gt; 6 )[[End]]
-(if: $time is 4)[
-[[Go TO SLEEP]]
-[&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/VyvqK5xwFzI?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;] 
-You life is meaningless with this.
-[[Youtube Video 2]]
-]
-	
-(if: $time is 5)[
-[[Go TO SLEEP]]
-[&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/VyvqK5xwFzI?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;] 
-You life is meaningless with this.
-[[Youtube Video 2]]
+(if: $time &lt; 7)[
+You wear your pajamas, make your bed, and lay on your bed. With the air-conditioner on, you feel comfortable and cozy in your room.
+But there is something going on in your brain.
+You start to reminesce what you have done today. You cannot stop your brain from thinking. 
+Click the following four scnerios to enter
+[[Schoolwork]]
+[[Family]]
+[[Friends]]
+[[Shopping]]
 ]
 
-(if: $time is 6)[
-[[Go TO SLEEP]]
-[&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/VyvqK5xwFzI?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;] 
-You life is meaningless with this.
-[[Youtube Video 2]]
+(if: $time &gt; 6 )[
+The sky gets brighter. You can hear birds singing. However, the biggest sound is your brain. You can feel your brain is costing your too much energy. After rethinking what you have done today, your brain is activated extremely while your body needs sleep.
+Click [[End]] to see your final result of the game.
 ]
 
 
 
+</tw-passagedata><tw-passagedata pid="22" name="Untitled Passage" tags="" position="1866.6666666666667,818.3333333333334" size="100,100">&lt;style&gt; img{
+	max-width: 100%;
+	max-height: 100%;
+}
 
+&lt;/style&gt;
+&lt;img src=&quot;https://cdn.pixabay.com/photo/2021/01/04/14/12/woman-5887685_1280.jpg&quot; &gt; 
+&lt;/div&gt;
 
-
-</tw-passagedata><tw-passagedata pid="8" name="Go TO SLEEP" tags="sleep" position="805,281" size="100,100">(if: $time &gt; 6)[[End]]
-(if: $time &lt; 7)[Have a good night!]</tw-passagedata><tw-passagedata pid="9" name="Untitled Passage 2" tags="" position="485,674" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+&lt;audio src=&quot;&quot; autoplay&gt;</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,i=!1,a=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){i=!0,a=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw a}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
